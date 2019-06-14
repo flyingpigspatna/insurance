@@ -87,13 +87,24 @@
           <div class="row">
             <legend class="col-form-label col-sm-5 pt-0">Title</legend>
             <div class="col-sm-7">
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="mr" id="mr" value="option1" checked>
-                <label class="form-check-label" for="mr">
-                  Mr.
-                </label>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="mr" value="mr">
+                <label class="form-check-label" for="mr">Mr.</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="mrs" value="mrs">
+                <label class="form-check-label" for="mrs">Mrs.</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="miss" value="miss">
+                <label class="form-check-label" for="miss">Miss</label>
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="dr" value="dr">
+                <label class="form-check-label" for="dr">Dr.</label>
               </div>
             </div>
+            
           </div>
         </fieldset>
         <div class="form-group row">
@@ -135,19 +146,61 @@
         <div class="form-group row">
           <label for="gender" class="col-sm-5 col-form-label">Gender</label>
           <div class="col-sm-7">
-            <input type="text" class="form-control" id="gender" placeholder="Make it radio button">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="genderradio" id="male" value="male">
+              <label class="form-check-label" for="male">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="genderradio" id="female" value="female">
+              <label class="form-check-label" for="female">Female</label>
+            </div>
           </div>
         </div>
         <div class="form-group row">
           <label for="ageProof" class="col-sm-5 col-form-label">Age Proof</label>
           <div class="col-sm-7">
-            <input type="text" class="form-control" id="ageProof" placeholder="Make it radio button">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="ageproofradio" id="schoolCertificate" value="schoolCertificate">
+              <label class="form-check-label" for="schoolCertificate">School Certificate</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="ageproofradio" id="drivingLicense" value="drivingLicense">
+              <label class="form-check-label" for="drivingLicense">Driving License</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="ageproofradio" id="passport" value="passport">
+              <label class="form-check-label" for="passport">Passport</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="ageproofradio" id="birthCertificate" value="birthCertificate">
+              <label class="form-check-label" for="birthCertificate">Birth Certificate</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="ageproofradio" id="panCard" value="panCard">
+              <label class="form-check-label" for="panCard">PAN Card</label>
+            </div>
+            
           </div>
         </div>
         <div class="form-group row">
           <label for="maritalStatus" class="col-sm-5 col-form-label">Marital Status</label>
           <div class="col-sm-7">
-            <input type="text" class="form-control" id="maritalStatus" placeholder="Make it radio button">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="maritalradio" id="single" value="single">
+              <label class="form-check-label" for="single">Single</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="maritalradio" id="married" value="married">
+              <label class="form-check-label" for="married">Married</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="maritalradio" id="widow" value="widow">
+              <label class="form-check-label" for="widow">Widow(er)</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="maritalradio" id="divorcee" value="divorcee">
+              <label class="form-check-label" for="divorcee">Divorcee</label>
+            </div>
           </div>
         </div>
         <div class="form-group row">
@@ -165,7 +218,14 @@
         <div class="form-group row">
           <label for="nationality" class="col-sm-5 col-form-label">Nationality</label>
           <div class="col-sm-7">
-            <input type="text" class="form-control" id="nationality" placeholder="Make it radio button">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="nationalityradio" id="residentIndianNational" value="residentIndianNational">
+              <label class="form-check-label" for="residentIndianNational">Resident Indian National</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="nationalityradio" id="nonResidentIndian" value="nonResidentIndian">
+              <label class="form-check-label" for="nonResidentIndian">Non Resident Indian</label>
+            </div>
           </div>
         </div>
         <div class="form-group row">
@@ -177,7 +237,30 @@
         <div class="form-group row">
           <label for="education" class="col-sm-5 col-form-label">Education</label>
           <div class="col-sm-7">
-            <input type="text" class="form-control" id="education" placeholder="Make it radio button">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="educationradio" id="postgraduateDoctorate" value="postgraduateDoctorate">
+              <label class="form-check-label" for="postgraduateDoctorate">Postgraduate / Doctorate</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="educationradio" id="graduate" value="graduate">
+              <label class="form-check-label" for="graduate">Graduate</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="educationradio" id="12thStdPass" value="12thStdPass">
+              <label class="form-check-label" for="12thStdPass">12th std. Pass</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="educationradio" id="10thStdPass" value="10thStdPass">
+              <label class="form-check-label" for="10thStdPass">10th std. Pass</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="educationradio" id="bellow10thstd" value="bellow10thstd">
+              <label class="form-check-label" for="bellow10thstd">Bellow 10th std.</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="educationradio" id="illiterateUneducated" value="illiterateUneducated">
+              <label class="form-check-label" for="illiterateUneducated">Illiterate / Uneducated</label>
+            </div>
           </div>
         </div>
         <div class="form-group row">
@@ -213,7 +296,27 @@
         <div class="form-group row">
           <label for="addressProof" class="col-sm-5 col-form-label">Address Proof</label>
           <div class="col-sm-7">
-            <input type="text" class="form-control" id="addressProof" placeholder="Make it Radio button">
+            
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="addressProofradio" id="passport" value="passport">
+              <label class="form-check-label" for="passport">Passport</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="addressProofradio" id="12thStdPass" value="12thStdPass">
+              <label class="form-check-label" for="12thStdPass">12th std. Pass</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="addressProofradio" id="10thStdPass" value="10thStdPass">
+              <label class="form-check-label" for="10thStdPass">10th std. Pass</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="addressProofradio" id="bellow10thstd" value="bellow10thstd">
+              <label class="form-check-label" for="bellow10thstd">Bellow 10th std.</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="addressProofradio" id="illiterateUneducated" value="illiterateUneducated">
+              <label class="form-check-label" for="illiterateUneducated">Illiterate / Uneducated</label>
+            </div>
           </div>
         </div>
         <div class="form-group row">
