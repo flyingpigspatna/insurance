@@ -1,24 +1,24 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
 
-<div id="heading" style="padding-top: 20px ; padding-bottom: 20px">
+ <div id="heading" style="padding-top: 20px ; padding-bottom: 20px">
   <h2 align="center">Zoning and Prefill</h2>
-</div>
+</div> 
 
 
-<div class="row">
-  <div class="col" style="padding-left: 50px ; padding-right: 50px">
-    <div id="leftContainer">
-        <app-left-container></app-left-container>
+<div class="row"  id = "rowid">
+  <div class="col-sm-5" >
+    <div id="leftContainer" style="padding-left: 50px ; padding-right: 50px ; padding-top: 15px">
+      <app-left-container></app-left-container>
     </div>
   </div>
 
-
-  <div class="col">
+  <div class="col-sm-7">
     <div id="rightContainer">
       <app-right-container></app-right-container>
     </div>
   </div>
 </div>
 <button type="button" class="btn btn-success" style="margin-left: 50%">Success</button>
+
 <router-outlet></router-outlet>
